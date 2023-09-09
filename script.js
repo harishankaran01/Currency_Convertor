@@ -25,6 +25,9 @@ button.addEventListener('click',()=>{
     if(s1==s2){
         alert("Please Select different currencies");
     }
+    else if(inp==null || inp==''){
+      alert("Please Enter in Number. Eg(1,2,3....)");
+    }
     else if(isNaN(inp)){
         alert("Please Enter in Number Format. Eg(1,2,3....)");
         document.getElementById('input').value=" ";
