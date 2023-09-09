@@ -1,0 +1,40 @@
+*{
+    font-family: poppins,sans-serif;
+}
+.p1{
+    font-size: 10px;
+    font-weight: 500;
+}
+input{
+    border: 2px solid rgb(158, 156, 156);
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+input:focus{
+    border-color:#10B981;
+   
+}
+h3{
+    font-weight: 300;
+}
+/* .topic p{
+    display: inline-block;
+    margin: 10px 20px;
+} */
+.select
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px ;
+    align-items: center;
+}
+select{
+    border-radius: 5px;
+    outline: none;
+    border:  2px solid transparent;
+}
+button:active:focus{
+    transform: scale(0.7);
+    transition: 0.5s;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js | Currency Convertor</title>
+    <link rel="icon" href="For_icon.png" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+</head>
+<body style="  background-color: #18181B;width: 100vw;height: 100vh;" class="d-flex justify-content-center align-items-center">
+    <div class="container " style=" width: 340px;
+    height: 450px; border-radius: 10px;
+    background-color: #374151;">
+            <h3 class=" text-center my-3" style="font-weight: 600; color: #10B981;">Currency Convertor <i class="bi bi-currency-exchange"></i></h3>
+        <div class="input mx-4 my-4">
+            <p class="mb-1 mx-1 p1" style="color: #10B981;font-weight: 500">Enter Amount <i class="bi bi-cash"></i></p>
+            <input type="text" class="inp w-100" id="input">
+        </div>
+        <div class="select">
+        <div class="from">
+            <p style="color: #10B981; font-weight: 500;" class="my-1">From</p>
+            <select name="from" class="currencies" style="padding: 5px; width: 80px;">
+                <option value="AUD">AUD</option>
+            </select>
+         </div>
+         <div class="icon mt-4" style="color: #10B981; font-weight: 800;"><i class="bi bi-arrow-left-right"></i></div>
+        <div class="to ">
+            <p style="color: #10B981;font-weight: 500;" class="my-1">To</p>
+            <select name="to"  class="currencies" style="padding: 5px; width: 80px;" >
+                <option value="AUD">AUD</option>
+            </select>
+        </div>
+        </div>
+        <div class="result m-4 " style="color: #10B981; font-weight: 800;">1000 USD = 73704.26 INR</div>
+        <div class=" mx-4 my-4">
+            <button class="p-2 rounded-3 my-2 w-100 " id="button" style="background-color: #10B981; color: #374151; border: none; outline: none;">Get Exchage Rate <i class="bi bi-hand-index-thumb"></i></button>
+        </div>
+
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
