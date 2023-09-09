@@ -17,6 +17,15 @@ function display(data) {
     select[1].innerHTML+=opt;
   }
 }
+let ex=document.getElementsByClassName("icon");
+ex[0].addEventListener('click',()=>{
+  console.log("Hello");
+   let s1=select[0].value;
+  select[0].value=select[1].value;
+  select[1].value=s1;
+  
+
+})
 let button=document.getElementById("button");
 button.addEventListener('click',()=>{
     let s1=select[0].value;
