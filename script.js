@@ -1,6 +1,7 @@
 fetch('https://www.frankfurter.app/currencies')
   .then(res => res.json()) 
   .then(data => {
+    console.log(data);
     display(data); 
   })
   .catch(error => {
